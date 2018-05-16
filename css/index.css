@@ -1,0 +1,37 @@
+/*初始化样式*/
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{margin:0;padding:0;border:0;}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+a{text-decoration:none; color:#000;}
+a:hover{color:#c00; text-decoration:none;}
+.clear{clear:both;}
+input{font-size:12px;}
+
+body{
+    color:#333;
+    font-size:12px;
+    font-family:"Microsoft YaHei";
+    background:#e62d2d;
+    background:greenyellow;
+    overflow-x:hidden;
+}
+.wheel{
+	width: 350px;
+	height: 350px;
+	position: relative;
+	background-image:url(../img/wheel-bg.png);
+    background-size:100% 100%;
+}
+.pointer{
+	position: absolute;
+	width:31.5%;
+    height:42.5%;
+    left:34.6%;
+    top:23%;
+}
+#wheelCanvas{
+	width: 100%;
+}
+
+
+
